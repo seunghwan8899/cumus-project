@@ -2,6 +2,7 @@ package com.zerobase.cms.user.exception;
 
 
 import com.sun.jdi.request.ExceptionRequest;
+import jakarta.servlet.ServletException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
