@@ -15,11 +15,13 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import java.time.LocalDate;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.hibernate.envers.AuditOverride;
 
 
 @Entity
 @Getter
+@Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
@@ -42,7 +44,7 @@ public class Customer extends BaseEntity{
 
     public static Customer from(SignUpForm form){
         return Customer.builder()
-            .email(form.getMail().toLowerCase(Locale.ROOT))
+            .email(form.getEmail().toLowerCase(Locale.ROOT))
             .password(form.getPassword())
             .name(form.getName())
             .birth(form.getBirth())
