@@ -1,4 +1,4 @@
-package com.zerobase.cms.user.service;
+package com.zerobase.cms.user.service.customer;
 
 import static com.zerobase.cms.user.exception.ErrorCode.ALREADY_VERIFY;
 import static com.zerobase.cms.user.exception.ErrorCode.EXPIRE_CODE;
@@ -46,7 +46,7 @@ public class SignUpCustomerService {
     }
 
     @Transactional
-    public LocalDateTime ChangeCustomerValidateEmail(Long customerId,String verificationCode){
+    public LocalDateTime changeCustomerValidateEmail(Long customerId,String verificationCode){
         Optional<Customer> customerOptional = customerRepository.findById(customerId);
 
             if(customerOptional.isPresent()){
