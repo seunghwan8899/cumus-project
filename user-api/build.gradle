@@ -41,6 +41,7 @@ dependencies {
 
     implementation 'org.springframework.data:spring-data-envers'
     implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    implementation 'javax.xml.bind:jaxb-api:2.3.0'
 }
 
 dependencyManagement {
