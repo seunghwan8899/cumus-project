@@ -35,5 +35,5 @@
 
 ## ERD
 <p align="center">
-  <img src="https://github.com/seunghwan8899/E-Commerce-Project/assets/130161496/7fa27bcb-5f5e-4c82-bb6a-0b2c4eb3f8db">
+  <img src="https://github.com/seunghwan8899/cumus-project/assets/130161496/73ae85bc-7a17-464e-a8b8-f838400ba1d0">
 </p>
