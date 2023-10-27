@@ -1,7 +1,7 @@
 # 개요
 간단한 이커머스 프로젝트입니다.
 
-사용기술 : Java, Spring, Jpa, Mysql, Redis, Docker, IntelliJ
+사용기술 : Java, Spring, Jpa, Mysql, Docker, Redis, IntelliJ
 
 목표 : 구매자와 셀러 사이를 중계해주는 이커머스 서버를 구축합니다.
 
