@@ -1,7 +1,7 @@
 # 개요
-이커머스 플랫폼 회원가입/로그인 프로젝트입니다.
+이커머스 플랫폼 회원가입/로그인 기능 구축 프로젝트입니다.
 
-사용기술 : Java, Spring, Mysql, Docker, Redis, IntelliJ
+사용기술 : Java 17, Spring Boot 3.1.3, MySQL, Docker, Redis, IntelliJ Ultimate
 
 목표 : 구매자와 셀러의 회원가입 및 로그인 기능을 구현합니다.
 
@@ -13,7 +13,7 @@
 - [x] 회원 가입
 - [x] 인증(이메일)
 - [x] 로그인 토큰 발행
-- [x] 로그인 토큰을 통한 제어 확인 (JWT, Filter를 사용해서 간략하게)
+- [x] 로그인 토큰을 통한 제어 확인 (JWT, Filter 사용)
 - [x] 예치금 관리
 
 ### 셀러
